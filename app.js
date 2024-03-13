@@ -59,7 +59,7 @@ const isDivBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) === 0;
 console.log(`divisible by 5: ${isDivBy5}`);
 const firstGLast = n1 > n4;
 console.log(`first greater than last: ${firstGLast}`);
-const arithmeticChain = ((n1 - n2) * n3) % n4;
+const arithmeticChain = ((n2 - n1) * n3) % n4;
 console.log(`remainder: ${arithmeticChain}`);
 const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
 console.log(`under 25: ${isUnder25}`);
